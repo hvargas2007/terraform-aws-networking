@@ -12,9 +12,7 @@
 - IAM ROLE para CloudWatch y VPC Flow Log
 
 ## Solucion diagrama:
-
-  ![App Screenshot](diagrama/diagrama_base.png)
-
+![App Screenshot](diagrama/diagrama_base.png)
 ## Probado con: 
 
 | Ambiente         | aplicacion | Version |
@@ -24,7 +22,9 @@
 
 ## Procedimientos de implementación:  
 
-sEn el archivo main.tf debe hacerse referencia al source del repositorio que vayamos a desplegar y colocoar las variables utilizadas para el despliegue por ejemplo:
+Primeramente se debe crear los siguientes archivos `main.tf`, `provider.tf`, `default.auto.tfvars` y `variable.tf`
+
+![App Screenshot](diagrama/main.png)
 
 Cree un .tfvar con un contenido como el siguiente: 
 
