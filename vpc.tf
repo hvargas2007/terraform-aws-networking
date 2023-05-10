@@ -29,7 +29,7 @@ resource "aws_subnet" "privatedb" {
 }
 
 #transit gateway attachment Produccion
-resource "aws_ec2_transit_gateway_vpc_attachment" "transit_attachment_Produccion" {
+resource "aws_ec2_transit_gateway_vpc_attachment" "transit_attachment" {
   count              = 1
   transit_gateway_id = var.transit_gateway_id
   vpc_id             = aws_vpc.vpc.id
