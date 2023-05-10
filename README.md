@@ -34,6 +34,7 @@ Primeramente se debe crear los siguientes archivos `main.tf`, `provider.tf`, `de
 los archivos deben tener la siguiente informacion:
 
 Archivo `main.tf`:
+NOTA: la version de source siempre dependera del ultimo Tag actualizado
 ```bash
 # Create a NETWORK account
 module "vpc" {
