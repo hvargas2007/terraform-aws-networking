@@ -176,8 +176,10 @@ variable "project-tags" {
   default = {
   }
 }
+```
 
 Ubicado en el directorio donde se crearon los archivos antes mencionados, iniciamos nuestro proyecto y desplegamos el manifiesto de la siguiente forma:
+
 ```bash
 aws configure
 terraform init
