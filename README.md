@@ -189,4 +189,4 @@ terraform plan     = Realizamos un plan para verificar los recursos a desplegar
 terraform apply    = realizamos ya el despliegue de los recursos
 ```
 ## Autor:
-Hermes Vargas - Hermes.vargas@cloudhesive.com
+👩‍💻  Hermes Vargas - Hermes.vargas@cloudhesive.com
