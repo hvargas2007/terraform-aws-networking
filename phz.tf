@@ -44,3 +44,9 @@ resource "aws_route53_resolver_rule_association" "itauinvest" {
   resolver_rule_id = "rslvr-rr-f4bcb34ea6d34d839"
   vpc_id           = aws_vpc.vpc.id
 }
+
+resource "aws_route53_resolver_rule_association" "vpcendpoint" {
+  name             = "ASSOCIATION-vpcendpoint"
+  resolver_rule_id = "rslvr-rr-8a9bcab8ced245208"
+  vpc_id           = aws_vpc.vpc.id
+}
