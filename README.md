@@ -181,12 +181,11 @@ variable "project-tags" {
 Ubicado en el directorio donde se crearon los archivos antes mencionados, iniciamos nuestro proyecto y desplegamos el manifiesto de la siguiente forma:
 
 ```bash
-aws configure
-terraform init
-terraform fmt      = para darle formato a los archivos
-terraform validate = validamos que no tengamos alguna inconsistencia en los recursos
+terraform init     = Inicializamos terraform
+terraform fmt      = Para darle formato a los archivos
+terraform validate = Validamos que no tengamos alguna inconsistencia en los recursos
 terraform plan     = Realizamos un plan para verificar los recursos a desplegar
-terraform apply    = realizamos ya el despliegue de los recursos
+terraform apply    = Realizamos ya el despliegue de los recursos
 ```
 ## Autor:
 👩‍💻  Hermes Vargas - Hermes.vargas@cloudhesive.com
