@@ -1,10 +1,10 @@
 resource "aws_route53_zone" "private" {
-  name = var.dns_phz
+  name    = var.dns_phz
   comment = "Hosted zone for ITAU PY-${var.name_prefix} Account"
 
   vpc {
-    vpc_id = aws_vpc.vpc.id
-    vpc_region  = var.aws_region
+    vpc_id     = aws_vpc.vpc.id
+    vpc_region = var.aws_region
   }
 }
 

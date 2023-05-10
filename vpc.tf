@@ -43,12 +43,12 @@ resource "aws_route_table" "private_route_table" {
   vpc_id = aws_vpc.vpc.id
 
   route {
-    cidr_block     = "0.0.0.0/0"
+    cidr_block         = "0.0.0.0/0"
     transit_gateway_id = var.transit_gateway_id
   }
 
   route {
-    cidr_block     = "10.0.0.0/8"
+    cidr_block         = "10.0.0.0/8"
     transit_gateway_id = var.transit_gateway_id
   }
 
